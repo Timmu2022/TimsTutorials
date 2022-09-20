@@ -86,7 +86,7 @@ namespace TimsTutorials
 
             set
             {
-                while (value == 0)
+                while (value <= 0)
 
                 {
                     pages = value;
@@ -104,7 +104,7 @@ namespace TimsTutorials
 
             string message;
 
-            if (pages > 1500)
+            if (pages >= 300)
             {
 
                 message = "Well done mate you smashed it!!";
@@ -130,7 +130,7 @@ namespace TimsTutorials
         public override String ToString()
         {
 
-            return "Your book title is : " + title + " " + "Your author is : " + author + " " +  " Your number of pages is : " + pages + ", " + IsBigBook();
+            return "\n\n" + "Your book title is : " + title + "\n\n" + "Your author is : " + author + "\n\n" +  " Your number of pages is : " + pages + "\n\n" + IsBigBook() + "\n\n";
 
             
         } 

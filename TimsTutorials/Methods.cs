@@ -84,7 +84,7 @@ namespace TimsTutorials
 
             }
 
-            else if (gender.Equals('m') && height > 100 && weight < 100)
+            else if (gender.Equals('m') && height >= 100 && weight <= 100)
 
             {
 
@@ -120,7 +120,7 @@ namespace TimsTutorials
 
             }
 
-            else if (gender.Equals('f') && height > 100 && weight < 100)
+            else if (gender.Equals('f') && height >= 100 && weight <= 100)
 
             {
 
